@@ -58,18 +58,18 @@
 
 
 
-# num = int(input("Insira sua nota de 0 a 100 para saber a Classificação: "))
+num = int(input("Insira sua nota de 0 a 100 para saber a Classificação: "))
 
-# if num <= 20:
-#     print("Nota Categoria F")
-# elif num <= 40:
-#     print("Nota Categoria D")
-# elif num <= 60:
-#     print("Nota Categoria C")
-# elif num <= 80:
-#     print("Nota Categoria B")
-# elif num <= 100:
-#     print("Nota Categoria A")
+if num <= 20:
+    print("Nota Categoria F")
+elif num <= 40:
+    print("Nota Categoria D")
+elif num <= 60:
+    print("Nota Categoria C")
+elif num <= 80:
+    print("Nota Categoria B")
+elif num <= 100:
+    print("Nota Categoria A")
 
 
 
